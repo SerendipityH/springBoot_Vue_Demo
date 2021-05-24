@@ -5,6 +5,8 @@ import Demo from '../views/Demo.vue'
 const Demo2 = ()=>import('../views/Demo2.vue');
 const Demo3 = ()=>import('../views/Demo3');
 const Demo4 = ()=>import('../views/Demo4');
+const Demo5 = ()=>import('../views/Demo5');
+const Demo6 = ()=>import('../views/Demo6');
 Vue.use(VueRouter);
 
 const routes = [
@@ -28,6 +30,16 @@ const routes = [
     path:'/demo4',
     name:'Demo4',
     component:Demo4
+  },
+  {
+    path:'/demo5',
+    name:'Demo5',
+    component:Demo5
+  },
+  {
+    path:'/demo6',
+    name:'Demo6',
+    component:Demo6
   },
   {
     path: '/',

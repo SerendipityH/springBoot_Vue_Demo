@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>时间修饰符</h1>
+        <h1>事件修饰符</h1>
         <div @click="fatherClick">
             父级
             <div @click="subClick1">子集1</div>
