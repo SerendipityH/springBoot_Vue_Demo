@@ -9,6 +9,9 @@ const Demo5 = ()=>import('../views/Demo5');
 const Demo6 = ()=>import('../views/Demo6');
 const Demo7 = ()=>import('../views/Demo7');
 const Demo8 = ()=>import('../views/Demo8');
+const Demo9 = ()=>import('../views/Demo9');
+const Demo10 = ()=>import('../views/Demo10');
+const Demo11 = ()=>import('../views/Demo11');
 Vue.use(VueRouter);
 
 const routes = [
@@ -52,6 +55,21 @@ const routes = [
     path:'/demo8',
     name:'Demo8',
     component:Demo8
+  },
+  {
+    path:'/demo9',
+    name:'Demo9',
+    component:Demo9
+  },
+  {
+    path:'/demo10',
+    name:'Demo10',
+    component:Demo10
+  },
+  {
+    path:'/demo11',
+    name:'Demo11',
+    component:Demo11
   },
   {
     path: '/',

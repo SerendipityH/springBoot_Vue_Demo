@@ -11,6 +11,9 @@
       <router-link to="/demo6">Demo6</router-link> |
       <router-link to="/demo7">Demo7</router-link> |
       <router-link to="/demo8">Demo8</router-link> |
+      <router-link to="/demo9">Demo9</router-link> |
+      <router-link to="/demo10">Demo10</router-link> |
+      <router-link to="/demo11">Demo11</router-link> |
     </div>
     <router-view/>
   </div>
