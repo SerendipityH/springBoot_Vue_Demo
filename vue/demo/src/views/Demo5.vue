@@ -13,6 +13,7 @@
         <button @click="switchLanguage('en')">英文</button>
         <div>{{zhangsan}}</div>
         <div>{{lisi}}</div>
+        <router-view/>
     </div>
 
 
