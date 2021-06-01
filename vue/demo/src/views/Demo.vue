@@ -12,7 +12,7 @@
       }
     },
     created() {
-      this.$ajax('http://localhost:8080/hello').then(res => {
+      this.$axios.get('http://localhost:8080/hello').then(res => {
         this.result = res.data;
         console.log(res.data);
       }).catch(function (error) {
